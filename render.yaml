@@ -6,7 +6,7 @@ services:
     healthCheckPath: /health
     envVars:
       - key: JWT_SECRET
-        value: your-super-secret-jwt-key-minimum-32-characters-long-please
+        value: "Inv3nt0ry@API#SecretKey2026!XpZ9qR7mK2wL5nB"
       - key: JWT_EXPIRATION_MS
         value: "900000"
       - key: JWT_REFRESH_EXPIRATION_MS
