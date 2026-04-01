@@ -26,10 +26,18 @@ services:
         fromDatabase:
           name: postgres
           property: password
-      - key: DATABASE_URL
+      - key: DB_HOST
         fromDatabase:
           name: postgres
-          property: connectionString
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: postgres
+          property: port
+      - key: DB_NAME
+        fromDatabase:
+          name: postgres
+          property: database
 
 databases:
   - name: postgres
