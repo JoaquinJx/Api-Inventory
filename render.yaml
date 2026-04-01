@@ -21,7 +21,7 @@ services:
       - key: DB_USERNAME
         fromDatabase:
           name: postgres
-          property: username
+          property: user
       - key: DB_PASSWORD
         fromDatabase:
           name: postgres
