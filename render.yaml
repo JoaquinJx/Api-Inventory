@@ -31,7 +31,7 @@ services:
           name: postgres
           property: connectionString
 
-  - type: postgres
-    name: postgres
+databases:
+  - name: postgres
     plan: free
     ipAllowList: []
